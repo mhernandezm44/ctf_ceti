@@ -1,0 +1,16 @@
+version: '3'
+services:
+  reto1:
+    build: ./reto1
+    ports:
+      - "8081:80"
+
+  reto2:
+    build: ./reto2
+    ports:
+      - "8082:80"
+
+  reto3:
+    build: ./reto3
+    ports:
+      - "8083:80"
