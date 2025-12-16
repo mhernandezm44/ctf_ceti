@@ -19,3 +19,7 @@ services:
     build: ./reto4
     ports:
       - "8084:80"
+  reto5:
+    build: ./reto5
+    ports:
+      - "8085:80"
